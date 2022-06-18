@@ -14,4 +14,4 @@ Video Link : https://www.youtube.com/watch?v=yzxQOYKk0cg
 
 Presentation Link: https://www.canva.com/design/DAE8dVsFYso/n0yp_gUPiqVvXd0XsgCsqw/view?utm_content=DAE8dVsFYso&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-Research Paper : https://drive.google.com/file/d/1343s8sQBGN92ndnww2rfGU-tJyfuRKVD/view?usp=sharing
+Research Paper Link: https://drive.google.com/file/d/1343s8sQBGN92ndnww2rfGU-tJyfuRKVD/view?usp=sharing

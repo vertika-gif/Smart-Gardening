@@ -1,6 +1,6 @@
 # Smart-Gardening
 
-Smart IOT plant monitoring system made using python, Arduino, Firebase and Android
+Smart IOT plant monitoring system made using python, Arduino, Firebase and Android : It automatically waters the plant as per the requirements and cover them with a shed in excess sunlight.
 
 Worked on backend python server and implementing AI with IOT
 

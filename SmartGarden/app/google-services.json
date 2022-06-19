@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079795374443",
+    "firebase_url": "https://esp8266-498dc-default-rtdb.firebaseio.com",
+    "project_id": "esp8266-498dc",
+    "storage_bucket": "esp8266-498dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079795374443:android:190290a85098e7dc8e142e",
+        "android_client_info": {
+          "package_name": "com.example.smartgarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079795374443-jtsdq54ealfos935ctg4i7v1tfe5caab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTPWw4CXULfuZtmD9bWvS_zyn-vmuO6UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079795374443-jtsdq54ealfos935ctg4i7v1tfe5caab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

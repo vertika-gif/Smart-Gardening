@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/tank"
+            android:layout_width="200dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/water"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/moistureVal"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tankT"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:text="Water tank"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/shed"
+            app:layout_constraintHorizontal_bias="0.569"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/moistureVal"/>
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/shed"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="monospace"
+            android:text="shed"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/soilval" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/soilval"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="monospace"
+            android:text="soilval"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sunlightval" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/moistureVal"
+            android:layout_width="181dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:text="Soil Moisture"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/soilval"
+            app:layout_constraintHorizontal_bias="0.415"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sunlight" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/sunlight"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:text="Sunlight"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/sunlightval"
+            app:layout_constraintHorizontal_bias="0.415"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/humidity" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/sunlightval"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="28dp"
+            android:fontFamily="monospace"
+            android:text="sunlightval"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/humidval" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/humidval"
+            android:layout_width="177dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="monospace"
+            android:text="humidval"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tempval" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/humidity"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:text="Humidity"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/humidval"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temp" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/tempval"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="28dp"
+            android:fontFamily="monospace"
+            android:text="tempval"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plantName" />
+
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/temp"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:text="Temperature"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/tempval"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plantName" />
+
+
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="356dp"
+            android:layout_height="356dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintBottom_toTopOf="@+id/plantName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tulsi" />
+
+        <TextView
+            android:id="@+id/lastwater"
+            android:layout_width="234dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="monospace"
+            android:shadowColor="@color/teal_200"
+            android:shadowDx="2.5"
+            android:shadowDy="2.3"
+            android:shadowRadius="1.6"
+            android:text="lastwater"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#650FFE"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/plantName"
+            android:background="@drawable/back2"
+            android:layout_width="165dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="Holy Basil"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="180dp"
+            android:layout_height="173dp"
+            android:layout_marginBottom="204dp"
+            android:onClick="water"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.995"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/can" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="211dp"
+            android:layout_height="343dp"
+            android:onClick="shed_on"
+            app:layout_constraintBottom_toTopOf="@+id/lastwater"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/pngwing_com" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
